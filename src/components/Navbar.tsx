@@ -38,22 +38,22 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
-            <button onClick={() => scrollToSection("home")} className="text-white hover:text-golden transition-colors">
+            <button onClick={() => scrollToSection("home")} className="text-white hover:text-gray-600 transition-colors">
               Home
             </button>
-            <button onClick={() => scrollToSection("menu")} className="text-white hover:text-golden transition-colors">
+            <button onClick={() => scrollToSection("menu")} className="text-white hover:text-gray-600 transition-colors">
               Menu
             </button>
-            <button onClick={() => scrollToSection("about")} className="text-white hover:text-golden transition-colors">
+            <button onClick={() => scrollToSection("about")} className="text-white hover:text-gray-600 transition-colors">
               About Us
             </button>
-            <button onClick={() => scrollToSection("popular")} className="text-white hover:text-golden transition-colors">
+            <button onClick={() => scrollToSection("popular")} className="text-white hover:text-gray-600 transition-colors">
               Popular Dishes
             </button>
-            <button onClick={() => scrollToSection("reservation")} className="text-white hover:text-golden transition-colors">
+            <button onClick={() => scrollToSection("reservation")} className="text-white hover:text-gray-600 transition-colors">
               Reservation
             </button>
-            <button onClick={() => scrollToSection("contact")} className="text-white hover:text-golden transition-colors">
+            <button onClick={() => scrollToSection("contact")} className="text-white hover:text-gray-600 transition-colors">
               Contact
             </button>
           </div>

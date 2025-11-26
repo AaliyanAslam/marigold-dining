@@ -7,6 +7,7 @@ import Reservation from "@/components/Reservation";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import MenuImage from "@/components/MenuCard";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <PopularDishes />
       <About />
       <SpecialMenu />
+      <MenuImage/>
       <Reservation />
       <Testimonials />
       <Contact />
