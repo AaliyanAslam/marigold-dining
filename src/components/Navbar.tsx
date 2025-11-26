@@ -69,7 +69,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden pb-4 fade-in">
+          <div className="md:hidden pb-4 fade-in bg-[#DDA83A] p-5 rounded-lg">
             <div className="flex flex-col gap-4">
               <button onClick={() => scrollToSection("home")} className="text-white hover:text-golden transition-colors text-left">
                 Home
