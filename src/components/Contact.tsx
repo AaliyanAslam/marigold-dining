@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 slide-up">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-medium mb-4">
             Visit <span className="text-golden">Us</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
@@ -22,9 +22,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Address</h3>
                   <p className="text-muted-foreground">
-                    123 Luxury Boulevard<br />
-                    Downtown District<br />
-                    New York, NY 10001
+                   C-19-C, Kh, 6, Phase Nishat Commercial Area <br /> Phase 6 Defence Housing Authority, <br /> Karachi, 75500
                   </p>
                 </div>
               </div>
@@ -35,7 +33,7 @@ const Contact = () => {
                 <Phone className="text-golden w-6 h-6 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Phone</h3>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">+92 306 2763123</p>
                 </div>
               </div>
             </Card>
@@ -56,8 +54,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-lg mb-2">Opening Hours</h3>
                   <div className="text-muted-foreground space-y-1">
-                    <p>Monday - Friday: 11:00 AM - 11:00 PM</p>
-                    <p>Saturday - Sunday: 10:00 AM - 12:00 AM</p>
+                    <p>Saturday - Friday: 9:00 AM - 12:00 AM</p>
+                    <p>Monday - <span className="text-red-700">Closed</span></p>
                   </div>
                 </div>
               </div>
@@ -67,7 +65,7 @@ const Contact = () => {
           <div className="slide-up">
             <Card className="h-full min-h-[500px] border-2 border-golden/20 overflow-hidden">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2412648718453!2d-73.98823492346635!3d40.75889733540917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.8653701792696!2d67.05565737482459!3d24.800063147672756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33d1b7f4defa5%3A0xef5bf9d3c963c56!2sMarigold!5e0!3m2!1sen!2s!4v1764181580291!5m2!1sen!2s"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

@@ -26,14 +26,14 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-dark-bg/20 backdrop-blur-md shadow-lg"
+          ? "bg-[#DDA83A] backdrop-blur-md shadow-lg"
           : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="text-2xl font-bold text-golden cursor-pointer" onClick={() => scrollToSection("home")}>
-           <img src={logo} className="h-10 rounded-md" alt="" />
+           <img src={logo} className="h-9  rounded-md" alt="" />
           </div>
 
           {/* Desktop Menu */}
