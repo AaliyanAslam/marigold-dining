@@ -24,7 +24,7 @@ const About = () => {
           </div>
 
           <div className="slide-up">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-medium mb-6">
               Welcome to <span className="text-golden">Marigold</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6">

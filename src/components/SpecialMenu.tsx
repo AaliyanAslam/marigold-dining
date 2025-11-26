@@ -5,22 +5,22 @@ const specialItems = [
   {
     name: "Chef's Signature Wellington",
     description: "Beef Wellington with foie gras, wrapped in puff pastry",
-    price: "$78",
+    price: "RS 2999",
   },
   {
     name: "Golden Marigold Risotto",
     description: "Saffron risotto with scallops and edible gold",
-    price: "$48",
+    price: "RS 1999",
   },
   {
     name: "Royal Lobster Thermidor",
     description: "Whole lobster in brandy cream sauce",
-    price: "$85",
+    price: "RS 6499",
   },
   {
     name: "Chocolate Symphony",
     description: "Dark chocolate soufflé with vanilla bean ice cream",
-    price: "$22",
+    price: "RS 999",
   },
 ];
 
@@ -32,7 +32,7 @@ const SpecialMenu = () => {
           <div className="flex justify-center mb-4">
             <Star className="text-golden fill-golden" size={32} />
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
+          <h2 className="text-4xl md:text-5xl font-medium mb-4">
             Chef's <span className="text-golden">Special</span>
           </h2>
           <p className="text-white/80 text-lg max-w-2xl mx-auto">

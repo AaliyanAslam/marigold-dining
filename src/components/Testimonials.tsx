@@ -3,21 +3,34 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
+    name: "ASMA QURESHI",
     role: "Food Critic",
-    content: "An absolutely divine experience! The attention to detail and quality of ingredients is unmatched. Marigold sets the standard for fine dining.",
+    content: `
+    Absolutely loved my experience at Marigold Restaurant in Karachi. 💛
+The ambiance is warm and inviting, the service is attentive, and the food is just wow! Every dish was flavorful, beautifully presented, and felt crafted with care.
+
+It’s rare to find a place that combines great taste, great vibes, and great service all in one — but Marigold definitely delivers. Love, love, love it! ✨
+    
+    `
+    
+    ,
     rating: 5,
   },
   {
-    name: "Michael Chen",
+    name: "Mohammed Khanani",
     role: "Regular Guest",
-    content: "I've hosted multiple corporate dinners here, and Marigold never disappoints. The ambiance is perfect, and the service is impeccable.",
+    content: `
+    I went for breakfast and the food was very good. Had the sliders and truffle omelette. Both were great. French toast was ok. Prices a bit steep but the quality and ambiance justify them. Staff was friendly and service was fast.
+    `,
     rating: 5,
   },
   {
-    name: "Emily Rodriguez",
+    name: "Muhammad Azhar Shaikh",
     role: "Celebrating Anniversary",
-    content: "Our anniversary dinner was magical. From the moment we walked in, we felt special. The food was extraordinary, and the staff made our evening perfect.",
+    content: `
+    We were a group of five. Over all food was good and quality and quality both were fine. But I didn't find it anything extraordinary. The bread under the salmon was bit dry and hard. Mango juice was average. Mushroom Omelette was good.
+Over all it is a good place for once in a while visit for me.
+    `,
     rating: 5,
   },
 ];
