@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/50 to-golden/20"></div>
       
       <div className="relative z-10 container mx-auto px-4 text-center slide-up">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+        <h1 className="text-5xl md:text-7xl font-medium text-white mb-6" style={{fontFamily : "poppins"}}>
           Taste the Luxury of Fine Dining
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
