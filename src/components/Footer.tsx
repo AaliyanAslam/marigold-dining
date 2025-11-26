@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
+import logo from '../assets/finalmarilogo.png';
 
 const Footer = () => {
   const scrollToSection = (id: string) => {
@@ -13,7 +14,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold text-golden mb-4">Marigold Restaurant</h3>
+          <img src={logo} className="h-9 rounded-lg mb-4" alt="Marigold Restaurant" />
             <p className="text-white/70">
               Experience the finest in culinary excellence and hospitality.
             </p>
