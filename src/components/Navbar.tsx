@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import logo from '../assets/finalmarilogo.png';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="text-2xl font-bold text-golden cursor-pointer" onClick={() => scrollToSection("home")}>
-            Marigold Restaurant
+           <img src={logo} className="h-10 rounded-md" alt="" />
           </div>
 
           {/* Desktop Menu */}
